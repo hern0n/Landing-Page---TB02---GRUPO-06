@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Imagenes/logo-trans.png" alt="logo">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>SAFEWAY</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="CSS/script.js"></script>
+  </head>
+
+  <body>
+
+      <header class="header">
+        <nav class="nav container">
+          <a href="#" class="nav__logo">
+            <img src="Imagenes/logo.jpg" width="50px" space= " " height="auto" href="#" class="nav__logo" /><a href="titulo" style="color: black; font-size: 35px;">SafeWay</a>
+          </a>
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#home" class="nav__link">Inicio</a>
+              </li>
+              <li class="nav__item">
+                <a href="#nosotros" class="nav__link">Nosotros</a>
+              </li>
+              <li class="nav__item">
+                <a href="#servicios" class="nav__link">Servicios</a>
+              </li>
+              <li class="nav__item">
+                <a href="#planes" class="nav__link">Planes</a>
+              </li>
+              <li class="nav_item">
+                <a href="#testimonios" class="nav_link">Testimonios</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contacto" class="nav__link">Contacto</a>
+              </li>
+            <div class="nav__close" id="nav-close">
+              <i class='bx bx-x'></i>
+            </div>
+          </div>
+          <section class="home" id="home">
+          </section>
+      
+          <br>
+          <hr>
+      
+          <section id="iniciar_sesion" class="iniciar_sesion">
+              <button type="submit" onclick="openModal()">Iniciar Sesion</button><br>
+              <a href="#iniciar_sesion" class="iniciar_sesion"></a>
+            </div>
+          </section>
+      
+          <!-- Ventana modal -->
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <div class="caja_login" id="caja_login">
+                <form action="" class="formulario_login">
+                  <h2>Iniciar Sesión</h2>
+                  <input type="text" placeholder="Correo Electrónico">
+                  <input class="pasaw" type="password" placeholder="Contraseña"> 
+          
+                  <a href="" class="btn-submit">Iniciar</a>
+                  <a class="back" href="index.html">Volver</a>
+                </form>
+                <span class="close" onclick="closeModal()">&times;</span>
+              </div>
+            </div>
+          </div>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-grid-alt'></i>
+          </div>
+        </nav>
+
+      </div>
+      </header>
+    <section class="home" id="home">
+      <div class="home__container">
+        <div class="home__data">
+          <h1 class="home__description">
+            TODOS PODEMOS ESTAR A SALVO
+            <img src="Imagenes/celular.JPG" alt="prototipo1" />
+          </h1>
+          <h1 class="home__description2">
+            <img src="Imagenes/celular2.JPG" alt="prototipo2" />
+          </h1>
+          <p>
+            En SafeWay, la seguridad de las rutas de
+            nuestros clientes es nuestra maxima
+            prioridad. Trabajamos incansablemente para
+            garantizar que cada trayecto sea seguro y confiable,
+            brindando tranquilidad a quienes cofían en 
+            nuestros servicios. 
+          </p>
+          <a href="#nosotros" class="home__button">
+            Conoce acerca de nosotros
+          </a>
+        </div>
+      </div>
+    </section>
+    <br>
+   
+
+    <hr>
+    <section id="iniciar_sesion" class="iniciar_sesion">
+      <h2>Inicar sesión</h2>
+      <p>¡Coloque correctamente para acceder!</p>
+      <div class="container">
+        <form class="iniciar_sesion">
+          <input type="text" placeholder="Inicia sesion con google" required><br>
+          <input type="text" placeholder="Email@gmail.com" required><br>
+          <input type="text" placeholder="Contraseña" required><br>
+          <button type="submit">Entrar</button><br>
+        </form>
+        <a href="#iniciar_sesion" class="iniciar_sesion"></a>
+      </div>
+    </section>
+
+      <section class="nosotros" id="nosotros">
+      <div class="container">
+        <h3>¿Quiénes somos?</h3>
+        <p>Somos especialistas en ofrecer rutas seguras para 
+        nuestros clientes. Nos preocupamos por su seguridad y
+        trabajamos arduamente para diseñar y mantener trayectos
+        confiables. Contamos con un equipo altamente capacitado
+        y comprometido que se encarga de garantizar la 
+        tranquilidad de nuestros clientes durante cada viaje. Con
+        nosotros, su seguridad es nuestra prioridad número uno. 
+        </p>
+      </div>
+
+      <div class="card-container">
+        <div class="card">
+          <h3>Misión</h3>
+          <img src="Imagenes/mision.png" alt="Misión">
+          <p>Garantizar la seguridad en las rutas, 
+          protegiendo vidas y activos.</p>
+        </div>
+        <div class="card">
+          <h3>Visión</h3>
+          <img src="Imagenes/vision.png" alt="Visión">
+          <p>
+          Mejorar la experiencia de turistas y/o ciudadanos que 
+          vayan a lugares desconocidos, enfocándonos en su seguridad.
+          </p>
+        </div>
+      </div>
+      </section>
+      <hr>
+    
+
+      <section class="servicios" id="servicios">
+        <div class="container">
+          <h2>Servicios</h2><br>
+          <div class="container">
+            <form class="servicio">
+              <input type="text" placeholder="Buscar aquí" required>
+              <label for="lugar de origen">Lugar de origen:</label>
+              <input type="text" id="nombre" name="nombre" required />
+              <label for="Distrito">Distrito:</label>
+              <input type="distrito" id="distrito" name="distrito" required />
+              <button type="submit">Enviar</button><br><br>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16138192.53233377!2d-85.68159287084306!3d
+               -9.064819440597844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c850c05914f5%3A0xf29e011279210648!
+               2zUGVyw7o!5e0!3m2!1ses!2spe!4v1687824542863!5m2!1ses!2spe" 
+               width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" 
+               referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <hr>
+      <section id="planes" class="plans-section">
+        <h2 class="section-title">Planes</h2>
+        <div class="container">
+          <div class="card">
+            <h3>Plan Básico</h3>
+            <h3>S/. 15,90 al mes </h3>
+            <p> Reserva en cualquier momento; sin publicidad</p>
+            <p> Descuento de 10% en los primeros viajes</p>
+            <p> Rutas de viajes en tiempo estimado por la app</p>
+            <a href="#" class="btn">Seleccionar</a>
+          </div>
+          <div class="card">
+            <h3>Plan Estándar</h3>
+            <h3>S/. 35,90 al mes </h3>
+            <p> Reserva en cualquier momento; sin publicidad.</p>
+            <P> Descuento de 30% en los primeros viajes</P>
+            <p> Rutas de viajes en menor tiempo</p>
+            <a href="#" class="btn">Seleccionar</a>
+          </div>
+          <div class="card">
+            <h3>Plan Premium</h3>
+            <h3>S/. 55,90 al mes </h3>
+            <p>Reserva en cualquier momento; sin publicidad.</p>
+            <P> Descuento de 50% en todos viajes</P>
+            <p> Rutas de viajes en menor tiempo, mostrando reporte de inseguridad.</p>
+            <a href="#" class="btn">Seleccionar</a>
+          </div>
+        </div>
+      </section>
+      <hr>
+
+      <section id="testimonios" class="testimonios">
+        <h2 class="section-title">Testimonios</h2>
+        <div class="container">
+          <div class="card">
+            <img src="Imagenes/testimonios.png" alt="Imagen de testimonio" />
+            <blockquote>
+              <p> Desde que empecé a utilizar esta app de rutas seguras, mi 
+              vida ha cambiado por completo. Ahora puedo caminar por mi 
+              ciudad con total tranquilidad, ya que la aplicación 
+              me muestra las rutas más seguras y evita las zonas peligrosas. 
+              ¡Me siento mucho más segura y confiada!</p>
+              <cite>María</cite>
+              </blockquote>
+            </div>
+            <div class="card">
+              <img src="Imagenes/testimonios.png" alt="Imagen de testimonio" />
+              <blockquote>
+                <p>Siempre solía preocuparme por la seguridad de mi hija 
+                cuando iba a la escuela. Sin embargo, desde que descargué 
+                esta app de rutas seguras, puedo estar tranquilo sabiendo 
+                que ella está siguiendo el camino más seguro y que la app 
+                le enviará una alerta si hay algún problema en su ruta. 
+                Es una gran herramienta para la tranquilidad de los padres.</p>
+                <cite>Carlos</cite>
+              </blockquote>
+            </div>
+            <div class="card">
+              <img src="Imagenes/testimonios.png" alt="Imagen de testimonio" />
+              <blockquote>
+                <p>Como viajera frecuente, siempre estoy buscando nuevas formas
+                de explorar ciudades desconocidas. Esta app de rutas seguras ha 
+                sido un verdadero salvavidas para mí. Ahora puedo descubrir 
+                nuevos lugares y disfrutar de mi viaje sin preocuparme por mi seguridad. 
+                La app me guía por las rutas más seguras y me brinda información
+                actualizada sobre los lugares que visito.</p>
+                <cite>Laura</cite>
+              </blockquote>
+            </div>
+          </div>
+      </section>
+
+
+      <section id="contacto" class="contacto">
+          <h2>Contacto</h2>
+          <p>¡Contáctanos para obtener más información!</p>
+          <div class="container">
+            <form >
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required />
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" required></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+      </section>
+
+      <footer>
+        <ul class="social-icons">
+          <li><a href="https://www.facebook.com"><img src="Imagenes/facebook.png" alt="Facebook"></a></li>
+          <li><a href="https://www.instagram.com"><img src="Imagenes/Instagram.png" alt="Instagram"></a></li>
+          <li><a href="https://www.youtube.com"><img src="Imagenes/youtube.png" alt="YouTube"></a></li>
+          <li><a href="https://web.whatsapp.com/"><img src="Imagenes/whatsapp.png" alt="YouTube"></a></li>
+        </ul>
+        <div class="startup-logo">
+          <img src="Imagenes/logo-trans.png" alt="Logo del startup">
+        </div>
+        <div class="Copyright">
+          <a href="copyright2021" style="color: rgb(107, 103, 103);">Copyright © 2023 SafeWay, Inc</a>
+        </div>
+        <div class="legal-info">
+          <a href="privacidad.html" style="color: black; text-decoration: underline;">Términos de privacidad</a> | <a href="informacion-legal.html" style="color: black; text-decoration: underline;">Información legal</a>
+        </div>
+      </footer>
+      
+    </body>
+  </body>
+</html>
